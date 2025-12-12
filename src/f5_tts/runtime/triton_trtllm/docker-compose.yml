@@ -1,6 +1,6 @@
 services:
   tts:
-    image: soar97/triton-f5-tts:24.12
+    image: nvcr.io/nvidia/tritonserver:25.08-trtllm-python-py3
     shm_size: '2gb'
     ports:
       - "9000:8000"
